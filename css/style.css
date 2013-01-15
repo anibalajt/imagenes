@@ -1,0 +1,61 @@
+body{
+    background: #1C1D22;
+    min-width: 940px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background: #2A2B30;
+    -moz-box-shadow: 0 0 10px #111;
+    -webkit-box-shadow: 0 0 10px #111;
+    box-shadow: 0 0 10px #111;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    box-transition: 1s;
+    transition:  1s;
+}
+.opat{
+    filter:alpha(opacity=0)
+    
+}
+.ctpa{
+    -moz-transition:1s;
+    -webkit-transition:1s;
+    box-transition:1s;    
+    transition:1s;
+    position: relative;
+}
+html,body, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, header, footer, hgroup, menu, nav, section, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+border-image: initial;
+line-height: 13px;
+ font: 14px/22px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.title a{
+position: relative;
+color: white;
+font-weight: bold;
+opacity: 0.7;
+font-size: 25px;
+text-shadow: 0 0 10px #0CC;
+float: left;
+padding: 14px 50px;
+font-family: "Times New Roman", Times, serif;
+}
+
+
+
+

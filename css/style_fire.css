@@ -1,0 +1,91 @@
+body{
+    /*background: #2C2A2A;*/
+    background: url('http://4.bp.blogspot.com/-FWVU3EozQWc/TiGFXndnvRI/AAAAAAAAHv0/iH-bj_nJGvo/s1600/paisaje4.jpg')no-repeat center center fixed;
+    color: white;
+}
+.body{
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+-webkit-box-shadow: inset 0 0 10px black;
+-moz-box-shadow: inset 0 0 10px black;
+-o-box-shadow: inset 0 0 10px black;
+height: 100%;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: #222;
+    
+}
+html,body,  applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, header, footer, hgroup, menu, nav, section, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+border-image: initial;
+line-height: 13px;
+ font: 14px/22px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.title{
+position: relative;
+color: #0CC;
+font-weight: bold;
+opacity: 0.7;
+font-size: 25px;
+text-shadow: 0 0 10px #0CC;
+float: left;
+padding: 14px 50px;
+
+}
+.register{
+    float: left;
+width: 100px;
+}
+section form {
+left: 60px;
+position: relative;
+top: 20px;
+width: 310px;
+float: left;
+background-color: rgba(0, 0, 0, 0.44);
+padding: 10px 5px 10px 14px;
+border-radius: 5px;
+}
+#login-email, #register_name, #register_email, #register_ltname {
+width: 300px;
+}
+#register_password {
+width: 294px;
+}
+#login-password{
+    width: 186px;
+}
+
+section input {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+-moz-box-shadow: 0 0 0 #000,inset 0px 3px 3px #eee;
+-webkit-box-shadow: 0 0 0 black,inset 0px 3px 3px #EEE;
+box-shadow: 0 0 0 black,inset 0px 3px 3px #EEE;
+font-size: 16px;
+border: 1px solid #BFBFBF;
+padding: 5px;
+outline: none;
+}
+#form-login, #form_register{
+    display: none;
+}
+
+    .input{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+

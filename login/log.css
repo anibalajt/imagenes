@@ -1,0 +1,147 @@
+
+html,body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, header, footer, hgroup, menu, nav, section, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+border-image: initial;
+line-height: 13px;
+}
+body{
+font: normal 13px arial,sans-serif;
+background-color: #F8F8F8;
+min-width: 960px;
+}
+body, input, textarea, select, button, .normal {
+font-size: 13px;
+color: #444;
+font-weight: normal;
+}
+.top{
+border-radius: 0px 0px 64px 0px;
+position:relative;
+background: #00C481;
+width: 300px;
+height: 50px;
+}
+.na_pa {
+width: 205px;
+position: relative;
+color: #F8F8F8;
+font-size: 43px;
+font-family: league-gothic-1 ,Impact,sans-serif;
+text-align: center;
+border-bottom: 1px solid;
+padding: 9px 0px 12px 0px;
+float: left;
+left: 50px;
+}
+.top::after{
+    height: 50px;
+width: 83%;
+left: 51px;
+border-radius: 0px 0px 64px 0px;
+}
+.left{
+    background:#00C481;
+    width: 50px;height: 100%;
+    position: absolute;
+top: 0;
+}
+.left::after,.top::after{
+-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+position: absolute;
+z-index: -1;
+content: "";
+}
+.left::after{
+width: 8px;
+left: 41px;
+height: 93%;
+}
+
+
+
+
+input{
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+-moz-box-shadow: 0 0 0 #000,inset 0px 3px 3px #eee;
+-webkit-box-shadow: 0 0 0 black,inset 0px 3px 3px #EEE;
+box-shadow: 0 0 0 black,inset 0px 3px 3px #EEE;
+font-size: 16px;
+border: 1px solid #BFBFBF;
+padding: 5px;
+outline: none;
+}
+input:focus{
+    border: 1px solid #00C481;
+}
+form{
+left: 60px;
+position: relative;
+top: 20px;
+width: 70%;
+float: left;
+}
+#login{
+    width: 100%;
+}
+
+
+.title-text{
+    color: #222;
+font-size: 22px;
+font-weight: normal;
+}
+.input{
+margin-top: 10px;
+margin-bottom: 12px;
+}
+
+    #login-email,#register_name,#register_email,#register_ltname{
+   width:  85%;
+}
+#login-password{
+    width: 59%;
+}
+#register_password{
+    width: 64%;
+}
+#form_register{
+    display: none;
+}
+
+.register{
+    float: right;
+right: 63px;
+position: relative;
+}
+
+
+#resultado,#rest{
+    padding: 9px;
+    width: 287px;
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    display: table;
+}
+
+
+.main{
+    
+    max-width: 600px;
+    height: 100%;
+}
+
+
